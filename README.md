@@ -2,9 +2,13 @@
 
 ## 在本地端更新 Fork 的方法
 `git remote add upstream https://github.com/TingSyuanWang/web-app-class.git`
+
 `git fetch upstream`
+
 `git checkout master`
+
 `git rebase upstream/master`
+
 `git push -f origin master`
 
 ***
